@@ -4,6 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
         Sqare sq = new Sqare();
-        System.out.println("Площадь прямоугольника равна: " + sq.calculate());
+        //System.out.println("Площадь прямоугольника равна: " + sq.calculate());
+        Verification ver = new Verification();
+        ver.findNumInArr();
     }
 }
